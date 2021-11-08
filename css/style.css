@@ -2230,7 +2230,7 @@ h1.page-title.mb- {
 }
 .cd-top {
     position:fixed;
-    right:25px;
+    left:25px;
     top:-900px;
     z-index:99;
     width:70px;
