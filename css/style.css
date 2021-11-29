@@ -1554,7 +1554,7 @@ a:hover,a:active {
     padding:10px;
     top:46px;
     right:-13px;
-    width:80px;
+    width:100px;
     text-align:center;
     z-index:9999;
     border-radius:5px;
@@ -3266,6 +3266,7 @@ a.page-numbers {
 @media screen and (max-width:1200px){
     #he-plugin-simple{
         opacity: 0 !important;
+        z-index: -9;
     }
 }
 @media(max-width:1080px) {
