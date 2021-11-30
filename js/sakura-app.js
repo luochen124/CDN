@@ -432,7 +432,7 @@ function checkBgImgCookie () {
     $('#banner_wave_2').addClass('banner_wave_hide_fit_skin')
   }
   if (bgurl != '') {
-    if (bgurl == 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/sakura.png' || bgurl == 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/plaid.jpg' || bgurl == 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/star.png' || bgurl == 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/point.png' || bgurl == 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/little-monster.png') {
+    if (bgurl == 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/sakura.png' || bgurl == 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/plaid.jpg' || bgurl == 'https://img.gejiba.com/images/8fbe606af2c63eedc3438250efb69809.jpg' || bgurl == 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/point.png' || bgurl == 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/little-monster.png') {
       mashiro_global.variables.skinSecter = true
       mashiro_global.variables.isNight = false
       $('#night-mode-cover').css('visibility', 'hidden')
@@ -501,7 +501,7 @@ $(document).ready(function () {
   }
   changeBG('#sakura-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/sakura.png')
   changeBG('#gribs-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/plaid.jpg')
-  changeBG('#pixiv-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/star.png')
+  changeBG('#pixiv-bg', 'https://img.gejiba.com/images/8fbe606af2c63eedc3438250efb69809.jpg')
   changeBG('#KAdots-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/point.png')
   changeBG('#totem-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/little-monster.png')
   changeBGnoTrans('#bing-bg', 'https://api.shino.cc/bing/')
